@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "test-latest": {
+    "revamp-fw-motor": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/test-latest",
+            "outputPath": "dist/revamp-fw-motor",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "test-latest:build:production"
+              "buildTarget": "revamp-fw-motor:build:production"
             },
             "development": {
-              "buildTarget": "test-latest:build:development"
+              "buildTarget": "revamp-fw-motor:build:development"
             }
           },
           "defaultConfiguration": "development"
